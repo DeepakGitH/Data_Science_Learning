@@ -1,4 +1,21 @@
 
+#Basic Memory and Stuff
+1. Processor can access any point in the memory - that is why random access
+2. When processor asks for a memory few adjacent memories are also returned. THis is put into the cache
+3.
+Fractions: Store two numbers: the numerator and the denominator.
+Decimals: Also two numbers: 1) the number with the decimal point taken out, and 2) the position where the decimal point goes (how many digits over from the leftmost digit).
+Negative Numbers: Reserve the leftmost bit for expressing the sign of the number. 0 for positive and 1 for negative.
+
+4. Python automatically assigns extra memories for integers
+5. Accessing arrays are O(1)
+6. Strings are character arrays
+7. Pointers and creating the arrays of pointers to store an array of strings
+8. Dynamic arrays are like Python List
+9. Worst case update is O(n) for dynamic list
+10. Linked list and Hash tables
+
+
 Chapter 1 #Introduction
 1. Tuples are immutable (value can not be changed once initialized) while lists are not
 2. Set is a collection of immutables so set of lists is not possible
