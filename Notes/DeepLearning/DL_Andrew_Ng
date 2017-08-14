@@ -1,0 +1,5 @@
+#Week 2 Lectures
+
+1. Loss function is for an example while Cost function is for the entire training set
+
+2. The cost function least squares is not convex for a classification task.
