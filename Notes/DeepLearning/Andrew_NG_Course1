@@ -1,4 +1,4 @@
-#####Week 2 Lectures
+##### Week 2 Lectures ######
 
 1. Video 1 - It is easir in NN implementations to have the matrix with columns as data points and rows with features.
 2. Video 3 - Loss function is for an example while Cost function is for the entire training set
@@ -16,3 +16,13 @@ computation graph
 
 ######## Week 3 Lectures #######
 
+1. Vectorized implementation of NN is very important for understanding. Each Weight W is a matrix with rows representing the number
+of nodes in the Hidden Layer and Columns representing the weights for each neuron coming from the nodes in the previous layer. B is 
+number of nodes in the hidden layer. The output after the linear transformation is also in the same form. The number of columns in the Z 
+matrix is the number of data points in training and number of rows is the number of nodes in the hidden layer.
+2. Hyperbolic works better than the sigmoid because it makes the output more centered.
+3. In practice in computers the exact zero will never occur so you never have to worry that ReLu is not differentiable at zero
+4. Leaky Relu works better
+5. Without non linearity hidden layers are just useless
+6. If the weights are not initialized randomly we will see all the same updates in the hidden layer to be the same because of the 
+symmetry. We should initialize the weights to small values.
