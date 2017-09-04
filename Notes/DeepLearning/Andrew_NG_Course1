@@ -1,9 +1,18 @@
-#Week 2 Lectures
+#####Week 2 Lectures
 
-1. Loss function is for an example while Cost function is for the entire training set
+1. Video 1 - It is easir in NN implementations to have the matrix with columns as data points and rows with features.
+2. Video 3 - Loss function is for an example while Cost function is for the entire training set
+3. Video 3 - The cost function least squares is not convex for a classification task.
+4. Video 4 - Cost function = -1/m * Cross Entropy
+5. Computation Graph - Helps in visualizing the forward and backward pas. If you are doing a backward pass it is always better to do a
+computation graph
+6. In gradient descent the number of epochs (iterations) are on loop but the calculations on data is always vectorised
+7. Numpy vector and matrix dimensions are very fast and should always be used.
+  - SIMD = Single Instruction Multiple Data
+  Without using any for loop you can vectorize the entire data set
+8. Better to use matrices than "rank array" in numpy
+9. Brodcasting in numpy 
+10. ASSERT is a good method to check the output from your code
 
-2. The cost function least squares is not convex for a classification task.
+######## Week 3 Lectures #######
 
-3. Better to use matrices than "rank array" in numpy
-
-4. Brodcasting in numpy 
