@@ -1,6 +1,7 @@
 #### Hyperparameter Tuning and Optimization of Deep Networks ####
 
 ## Week 1
-
+1. Train, Dev and Test sets. In deep learning the dev and test sets aer kept small. 
+2. Dev and test set come from same distribution. The train set can be from a different distribution. 
 1. High Bias - Train the network longer, deeper network or different network architecture
 2. High Variance - Get the more data, regularization
