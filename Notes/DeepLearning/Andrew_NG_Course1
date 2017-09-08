@@ -26,3 +26,7 @@ matrix is the number of data points in training and number of rows is the number
 5. Without non linearity hidden layers are just useless
 6. If the weights are not initialized randomly we will see all the same updates in the hidden layer to be the same because of the 
 symmetry. We should initialize the weights to small values.
+
+########### Week 4 Lectures ################
+1. THinking about the matrix is the best way to debug your code.
+2. Even in audio, it is audio -> Phonems -> Words -> Sentences
