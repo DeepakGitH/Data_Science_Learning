@@ -5,3 +5,29 @@
 2. Dev and test set come from same distribution. The train set can be from a different distribution. 
 1. High Bias - Train the network longer, deeper network or different network architecture
 2. High Variance - Get the more data, regularization
+
+
+#### Week 2
+1. Mini batch gradient descent to not consider all the data points at the same time. More variations in the calculations.
+2. In Gradient descent with Momentums the gradient is exponentially weighted which allows it to not change so much.
+3. In RMSProp the gradients are weighted so certain directions are favored and certain other directions are less favored
+4. In ADAM where both Momentum and RMSProp are combined
+5. Learning rate decay allows us to converge better
+5. In very high dimensional spaces most places with zero gradients are saddle points because in such high dimensions not all curves
+would be pointing down. The chances of that happening is fairly small. So some dimensions will be up others down.
+6. Plateaus are a problems therefore momentum based algos work better like ADAM
+
+
+#### Week 3
+1. You should not randomly select parameters when you are doing a parameters search. You can also use LOG Scales to allow it to 
+uniformly pick values.
+2. Various training and hyper parameter tuning stategies. Should We focus on one model and keep improving it or should we try to tune various 
+models
+3. Normalizing activations helps in faster convergence. It is done for each Mini Batch. The Z values are first normalized and then parameters
+are set which will choose the mean and variance.
+4. Why does it work?
+  - In deep networks it allows the higher layers to get less effected by the lower layers. Even if the values of a layer change
+    their mean and variance will remain the same.
+5. Softmax Regression - The final layer is softmax layer with Entropy Loss.
+6. Sturcture of Tensorflow. Parameter we are trying to optimize is declared in Tensorflow. Backprop gradient computation is automatic. 
+In Tensorflow graphs if the data is changing declare Placeholders. FEED_DICT allows values to be passed to x.
