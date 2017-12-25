@@ -22,3 +22,4 @@
     - If there is a gap between Test and Dev set it may mean that you have overfit to Dev Set, so you may need larger Dev set
     - Ideas around generating data to reduce mismatch between data sets
 2. Key ideas around - Transfer learning, Multi Task Learning and End-to-End Learning
+    - For end-to-end deep learning do we have sufficient data to model the complexity
