@@ -16,3 +16,9 @@
 
 
 ###### Week 2
+1. Looking at Errors and using that to figure out Bias and Variance problems
+   - Creating a Training-Dev set can tell whether it is really a variance problem or whether this is due to training - Dev data mismatch
+    data mismatch problem can be identified using a Training-Dev data set
+    - If there is a gap between Test and Dev set it may mean that you have overfit to Dev Set, so you may need larger Dev set
+    - Ideas around generating data to reduce mismatch between data sets
+2. Key ideas around - Transfer learning, Multi Task Learning and End-to-End Learning
