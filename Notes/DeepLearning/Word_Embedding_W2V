@@ -1,0 +1,11 @@
+Notes on basics of Word Embeddings
+A basic Skip Gram Model
+ - The idea is to create a moving window of 2*k + 1. The center word is the context word and other words are cases on which learning is performed
+ - A basic Softmax model is trained for each pair where the context center word is the input and the other word is the output. 
+ - The words which occur together will have higher probability
+ - Since a very large number of cases are there only a few are picked to model. These are randomly picked.
+ - Glove Models
+ 
+Weight of the Edge in the Network
+  - If you like a common tweet you get less weight while if you like uncommon you get more weight
+  
