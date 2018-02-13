@@ -9,3 +9,5 @@ A basic Skip Gram Model
 Weight of the Edge in the Network
   - If you like a common tweet you get less weight while if you like uncommon you get more weight
   
+Measuring accuracy
+ - In group agreements, clusters, Kappa Coefficient
